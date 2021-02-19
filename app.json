@@ -1,0 +1,12 @@
+{
+  "name": "covsafe",
+  "displayName": "covsafe",
+  "expo": {
+    "name": "covsafe",
+    "slug": "covsafe",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
