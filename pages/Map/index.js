@@ -48,8 +48,8 @@ export default function Map() {
         initialRegion={initialRegion}
         onRegionChange={(region) => setRegion(region)}
       >
-        <Text>Lat: {region.latitude}</Text>
-        <Text>Lon: {region.longitude}</Text>
+        {/* <Text>Lat: {region.latitude}</Text>
+        <Text>Lon: {region.longitude}</Text> */}
         {
           circles.map((circle, index) => <Circle {...circle} strokeColor="rgba(0,0,0,0)" key={`${index}`} />)
         }

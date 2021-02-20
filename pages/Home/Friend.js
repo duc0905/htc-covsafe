@@ -9,8 +9,7 @@ import Deer from "../../assets/deer.png";
 export default function Friend() {
   return (
     <SafeAreaView style={styles.container} >
-      <Text style={styles.titleText}> How Are Your Friends Doing?
-      </Text>
+      <Text style={styles.titleText}> How Are Your Friends Doing?</Text>
 
       <View style={{ flex: 1, flexDirection: "row", justifyContent: "space-around", flexWrap: "wrap", paddingLeft: 10, paddingRight: 10 }}>
         <UserPost />
@@ -79,6 +78,8 @@ const styles = StyleSheet.create({
     height: 10,
   },
   titleText: {
+    paddingLeft: 20,
+    paddingRight: 20,
     textAlign: "center",
     fontSize: 30,
     fontWeight: "bold",
